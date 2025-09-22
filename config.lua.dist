@@ -87,7 +87,7 @@ RANGE_ROTATE_ITEM_INTERVAL = 250
 
 -- Map
 -- NOTE: set mapName WITHOUT .otbm at the end
-mapName = "forgotten"
+mapName = "global"
 mapAuthor = "Komic"
 
 -- Market
@@ -98,9 +98,9 @@ maxMarketOffersAtATimePerPlayer = 100
 
 -- MySQL
 mysqlHost = "127.0.0.1"
-mysqlUser = "forgottenserver"
+mysqlUser = "root"
 mysqlPass = ""
-mysqlDatabase = "forgottenserver"
+mysqlDatabase = "forgottenserver_rl"
 mysqlPort = 3306
 mysqlSock = ""
 

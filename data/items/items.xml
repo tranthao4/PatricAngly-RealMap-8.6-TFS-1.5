@@ -48057,6 +48057,16 @@
 		<attribute key="weaponType" value="axe" />
 		<attribute key="skillAxe" value="3" />
 	</item>
+
+	<item id="42683" article="a" name="DMG sword">
+		<attribute key="description" value="The blade is a magic flame." />
+		<attribute key="weight" value="2300" />
+		<attribute key="defense" value="20" />
+		<attribute key="attack" value="24" />
+		<attribute key="elementFire" value="11" />
+		<attribute key="weaponType" value="sword" />
+		<attribute key="extradef" value="1" />
+	</item>
 	
 
 	

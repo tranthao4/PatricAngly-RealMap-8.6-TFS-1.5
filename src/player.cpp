@@ -452,7 +452,7 @@ void Player::addSkillAdvance(skills_t skill, uint64_t count, bool artificial /*=
 
 	skills[skill].tries += count;
 
-	uint32_t newPercent;
+	uint16_t newPercent;
 	if (nextReqTries > currReqTries) {
 		newPercent = Player::getBasisPointLevel(skills[skill].tries, nextReqTries);
 	} else {
@@ -460,7 +460,7 @@ void Player::addSkillAdvance(skills_t skill, uint64_t count, bool artificial /*=
 	}
 
 	if (skills[skill].percent != newPercent) {
-		skills[skill].percent = static_cast<uint8_t>(newPercent);
+		skills[skill].percent = newPercent;
 		sendUpdateSkills = true;
 	}
 
@@ -489,8 +489,14 @@ void Player::removeSkillTries(skills_t skill, uint64_t count, bool notify /* = f
 	}
 
 	skills[skill].tries = std::max<int32_t>(0, skills[skill].tries - count);
-	skills[skill].percent =
-	    Player::getBasisPointLevel(skills[skill].tries, vocation->getReqSkillTries(skill, skills[skill].level));
+
+	uint64_t currReqTries = vocation->getReqSkillTries(skill, skills[skill].level);
+	uint64_t nextReqTries = vocation->getReqSkillTries(skill, skills[skill].level + 1);
+	if (nextReqTries > currReqTries) {
+		skills[skill].percent = Player::getBasisPointLevel(skills[skill].tries, nextReqTries);
+	} else {
+		skills[skill].percent = 0;
+	}
 
 	if (notify) {
 		bool sendUpdateSkills = false;
@@ -1717,7 +1723,7 @@ uint16_t Player::getBasisPointLevel(uint64_t count, uint64_t nextLevelCount)
 
 	uint16_t result = ((count * 10000.) / nextLevelCount);
 	if (result > 10000) {
-		return 0;
+		return 10000; // Clamp to 100% instead of wrapping to 0%
 	}
 	return result;
 }

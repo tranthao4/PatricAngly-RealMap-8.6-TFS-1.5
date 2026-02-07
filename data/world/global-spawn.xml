@@ -892,9 +892,9 @@
 	<spawn centerx="32971" centery="31724" centerz="3" radius="9">
 		<monster name="Orc Warlord" x="2" y="-2" z="3" spawntime="60" />
 		<monster name="Orc Leader" x="1" y="-1" z="3" spawntime="60" />
-		<monster name="War wolf" x="-3" y="0" z="3" spawntime="60" />
+		<monster name="War Wolf" x="-3" y="0" z="3" spawntime="60" />
 		<monster name="Orc Leader" x="-1" y="0" z="3" spawntime="60" />
-		<monster name="War wolf" x="-7" y="3" z="3" spawntime="60" />
+		<monster name="War Wolf" x="-7" y="3" z="3" spawntime="60" />
 		<monster name="Orc Rider" x="1" y="3" z="3" spawntime="60" />
 		<monster name="Orc Rider" x="-4" y="4" z="3" spawntime="60" />
 	</spawn>
@@ -2748,20 +2748,20 @@
 		<monster name="Orc Leader" x="1" y="-3" z="5" spawntime="60" />
 		<monster name="Orc Rider" x="2" y="-1" z="5" spawntime="60" />
 		<monster name="Orc Rider" x="-3" y="0" z="5" spawntime="60" />
-		<monster name="War wolf" x="-1" y="0" z="5" spawntime="60" />
+		<monster name="War Wolf" x="-1" y="0" z="5" spawntime="60" />
 		<monster name="Orc Berserker" x="-2" y="2" z="5" spawntime="60" />
-		<monster name="War wolf" x="0" y="3" z="5" spawntime="60" />
+		<monster name="War Wolf" x="0" y="3" z="5" spawntime="60" />
 	</spawn>
 	<spawn centerx="32976" centery="31724" centerz="5" radius="3">
 		<monster name="Orc Leader" x="0" y="-3" z="5" spawntime="60" />
-		<monster name="War wolf" x="-1" y="-2" z="5" spawntime="60" />
+		<monster name="War Wolf" x="-1" y="-2" z="5" spawntime="60" />
 		<monster name="Orc Shaman" x="-3" y="-1" z="5" spawntime="60" />
 		<monster name="Orc Leader" x="1" y="0" z="5" spawntime="60" />
 		<monster name="Orc Shaman" x="-1" y="1" z="5" spawntime="60" />
 	</spawn>
 	<spawn centerx="32964" centery="31725" centerz="5" radius="4">
 		<monster name="Orc Berserker" x="-3" y="0" z="5" spawntime="60" />
-		<monster name="War wolf" x="3" y="2" z="5" spawntime="60" />
+		<monster name="War Wolf" x="3" y="2" z="5" spawntime="60" />
 		<monster name="Orc Rider" x="0" y="3" z="5" spawntime="60" />
 	</spawn>
 	<spawn centerx="32976" centery="31731" centerz="5" radius="2">
@@ -4474,22 +4474,22 @@
 	<spawn centerx="32977" centery="31716" centerz="6" radius="3">
 		<monster name="Orc Shaman" x="-1" y="-2" z="6" spawntime="60" />
 		<monster name="Orc Leader" x="-2" y="1" z="6" spawntime="60" />
-		<monster name="War wolf" x="3" y="1" z="6" spawntime="60" />
+		<monster name="War Wolf" x="3" y="1" z="6" spawntime="60" />
 	</spawn>
 	<spawn centerx="32970" centery="31725" centerz="6" radius="4">
 		<monster name="Orc Berserker" x="-4" y="-4" z="6" spawntime="60" />
-		<monster name="War wolf" x="2" y="-3" z="6" spawntime="60" />
-		<monster name="War wolf" x="0" y="-1" z="6" spawntime="60" />
+		<monster name="War Wolf" x="2" y="-3" z="6" spawntime="60" />
+		<monster name="War Wolf" x="0" y="-1" z="6" spawntime="60" />
 		<monster name="Orc Berserker" x="-2" y="2" z="6" spawntime="60" />
-		<monster name="War wolf" x="0" y="2" z="6" spawntime="60" />
+		<monster name="War Wolf" x="0" y="2" z="6" spawntime="60" />
 		<monster name="Orc Berserker" x="2" y="3" z="6" spawntime="60" />
 	</spawn>
 	<spawn centerx="32979" centery="31725" centerz="6" radius="3">
-		<monster name="War wolf" x="-1" y="-2" z="6" spawntime="60" />
+		<monster name="War Wolf" x="-1" y="-2" z="6" spawntime="60" />
 		<monster name="Orc Leader" x="-3" y="-1" z="6" spawntime="60" />
-		<monster name="War wolf" x="-2" y="-1" z="6" spawntime="60" />
-		<monster name="War wolf" x="-3" y="2" z="6" spawntime="60" />
-		<monster name="War wolf" x="0" y="3" z="6" spawntime="60" />
+		<monster name="War Wolf" x="-2" y="-1" z="6" spawntime="60" />
+		<monster name="War Wolf" x="-3" y="2" z="6" spawntime="60" />
+		<monster name="War Wolf" x="0" y="3" z="6" spawntime="60" />
 	</spawn>
 	<spawn centerx="32960" centery="31727" centerz="6" radius="2">
 		<monster name="Orc Shaman" x="0" y="0" z="6" spawntime="60" />
@@ -4812,7 +4812,7 @@
 		<monster name="Wolf" x="0" y="2" z="6" spawntime="60" />
 	</spawn>
 	<spawn centerx="32924" centery="31847" centerz="6" radius="3">
-		<monster name="War wolf" x="2" y="0" z="6" spawntime="60" />
+		<monster name="War Wolf" x="2" y="0" z="6" spawntime="60" />
 		<monster name="Wolf" x="-3" y="2" z="6" spawntime="60" />
 	</spawn>
 	<spawn centerx="32530" centery="31851" centerz="6" radius="1">
@@ -5154,10 +5154,10 @@
 	</spawn>
 	<spawn centerx="32254" centery="32142" centerz="6" radius="5">
 		<monster name="Snake" x="-2" y="-3" z="6" spawntime="60" />
-		<monster name="War wolf" x="-1" y="-2" z="6" spawntime="60" />
+		<monster name="War Wolf" x="-1" y="-2" z="6" spawntime="60" />
 		<monster name="Snake" x="-1" y="0" z="6" spawntime="60" />
 		<monster name="Snake" x="3" y="1" z="6" spawntime="60" />
-		<monster name="War wolf" x="3" y="3" z="6" spawntime="60" />
+		<monster name="War Wolf" x="3" y="3" z="6" spawntime="60" />
 		<monster name="Snake" x="4" y="5" z="6" spawntime="60" />
 	</spawn>
 	<spawn centerx="32791" centery="32142" centerz="6" radius="2">
@@ -8651,7 +8651,7 @@
 	</spawn>
 	<spawn centerx="33170" centery="31680" centerz="7" radius="2">
 		<monster name="Wolf" x="-1" y="0" z="7" spawntime="60" />
-		<monster name="War wolf" x="2" y="2" z="7" spawntime="60" />
+		<monster name="War Wolf" x="2" y="2" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="32551" centery="31681" centerz="7" radius="2">
 		<monster name="Skeleton" x="0" y="-1" z="7" spawntime="60" />
@@ -8673,7 +8673,7 @@
 		<monster name="Rabbit" x="1" y="1" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="33161" centery="31683" centerz="7" radius="2">
-		<monster name="War wolf" x="-2" y="1" z="7" spawntime="60" />
+		<monster name="War Wolf" x="-2" y="1" z="7" spawntime="60" />
 		<monster name="Wolf" x="1" y="1" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="33218" centery="31683" centerz="7" radius="2">
@@ -9432,9 +9432,9 @@
 		<monster name="Seagull" x="-1" y="0" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="32783" centery="31744" centerz="7" radius="4">
-		<monster name="War wolf" x="0" y="-3" z="7" spawntime="60" />
-		<monster name="War wolf" x="1" y="0" z="7" spawntime="60" />
-		<monster name="War wolf" x="-2" y="3" z="7" spawntime="60" />
+		<monster name="War Wolf" x="0" y="-3" z="7" spawntime="60" />
+		<monster name="War Wolf" x="1" y="0" z="7" spawntime="60" />
+		<monster name="War Wolf" x="-2" y="3" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="32838" centery="31744" centerz="7" radius="2">
 		<monster name="Orc Spearman" x="2" y="-2" z="7" spawntime="60" />
@@ -11614,30 +11614,30 @@
 	<spawn centerx="32334" centery="32037" centerz="7" radius="4">
 		<monster name="Orc Warrior" x="-1" y="-4" z="7" spawntime="60" />
 		<monster name="Orc Berserker" x="-1" y="0" z="7" spawntime="60" />
-		<monster name="War wolf" x="1" y="0" z="7" spawntime="60" />
+		<monster name="War Wolf" x="1" y="0" z="7" spawntime="60" />
 		<monster name="Orc Spearman" x="-1" y="4" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="32804" centery="32037" centerz="7" radius="1">
 		<monster name="Rat" x="1" y="0" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="32323" centery="32038" centerz="7" radius="5">
-		<monster name="War wolf" x="-3" y="-4" z="7" spawntime="60" />
-		<monster name="War wolf" x="2" y="-2" z="7" spawntime="60" />
-		<monster name="War wolf" x="-3" y="-1" z="7" spawntime="60" />
+		<monster name="War Wolf" x="-3" y="-4" z="7" spawntime="60" />
+		<monster name="War Wolf" x="2" y="-2" z="7" spawntime="60" />
+		<monster name="War Wolf" x="-3" y="-1" z="7" spawntime="60" />
 		<monster name="Orc Warrior" x="4" y="-1" z="7" spawntime="60" />
 		<monster name="Orc Rider" x="-4" y="0" z="7" spawntime="60" />
-		<monster name="War wolf" x="2" y="0" z="7" spawntime="60" />
+		<monster name="War Wolf" x="2" y="0" z="7" spawntime="60" />
 		<monster name="Orc Spearman" x="-2" y="1" z="7" spawntime="60" />
 		<monster name="Orc Warrior" x="2" y="2" z="7" spawntime="60" />
 		<monster name="Orc Rider" x="1" y="4" z="7" spawntime="60" />
-		<monster name="War wolf" x="-2" y="5" z="7" spawntime="60" />
+		<monster name="War Wolf" x="-2" y="5" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="32488" centery="32038" centerz="7" radius="2">
 		<monster name="Wolf" x="2" y="-2" z="7" spawntime="60" />
 		<monster name="Wolf" x="-2" y="1" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="32508" centery="32038" centerz="7" radius="2">
-		<monster name="War wolf" x="0" y="-2" z="7" spawntime="60" />
+		<monster name="War Wolf" x="0" y="-2" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="33037" centery="32038" centerz="7" radius="1">
 		<monster name="Snake" x="0" y="1" z="7" spawntime="60" />
@@ -11647,7 +11647,7 @@
 		<monster name="Deer" x="2" y="-1" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="32501" centery="32041" centerz="7" radius="2">
-		<monster name="War wolf" x="1" y="2" z="7" spawntime="60" />
+		<monster name="War Wolf" x="1" y="2" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="33265" centery="32041" centerz="7" radius="2">
 		<monster name="Blue Butterfly" x="0" y="2" z="7" spawntime="60" />
@@ -13159,6 +13159,9 @@
 	</spawn>
 	<spawn centerx="33024" centery="32209" centerz="7" radius="1">
 		<monster name="Snake" x="1" y="-1" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="32094" centery="32210" centerz="7" radius="1">
+		<monster name="Training Dummy" x="0" y="0" z="7" spawntime="60" direction="2" />
 	</spawn>
 	<spawn centerx="32355" centery="32210" centerz="7" radius="2">
 		<npc name="Frodo" x="1" y="-1" z="7" spawntime="60" />
@@ -14686,10 +14689,10 @@
 		<monster name="Orc Rider" x="4" y="-6" z="7" spawntime="60" />
 		<monster name="Orc Rider" x="0" y="-3" z="7" spawntime="60" />
 		<monster name="Orc Rider" x="-5" y="-2" z="7" spawntime="60" />
-		<monster name="War wolf" x="-4" y="1" z="7" spawntime="60" />
-		<monster name="War wolf" x="0" y="2" z="7" spawntime="60" />
+		<monster name="War Wolf" x="-4" y="1" z="7" spawntime="60" />
+		<monster name="War Wolf" x="0" y="2" z="7" spawntime="60" />
 		<monster name="Orc Rider" x="3" y="2" z="7" spawntime="60" />
-		<monster name="War wolf" x="-1" y="7" z="7" spawntime="60" />
+		<monster name="War Wolf" x="-1" y="7" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="32723" centery="32372" centerz="7" radius="2">
 		<monster name="Skeleton" x="-1" y="-1" z="7" spawntime="60" />
@@ -15332,7 +15335,7 @@
 	<spawn centerx="32941" centery="32497" centerz="7" radius="2">
 		<monster name="Carniphila" x="-1" y="-2" z="7" spawntime="60" />
 		<monster name="Carniphila" x="2" y="1" z="7" spawntime="60" />
-		<monster name="tiquandas Revenge" x="-1" y="2" z="7" spawntime="10" />
+		<monster name="Tiquandas Revenge" x="-1" y="2" z="7" spawntime="10" />
 	</spawn>
 	<spawn centerx="33196" centery="32497" centerz="7" radius="2">
 		<monster name="Lion" x="1" y="-1" z="7" spawntime="60" />
@@ -22036,10 +22039,10 @@
 		<monster name="Bug" x="1" y="2" z="8" spawntime="60" />
 	</spawn>
 	<spawn centerx="32947" centery="31754" centerz="8" radius="3">
-		<monster name="War wolf" x="2" y="-2" z="8" spawntime="60" />
+		<monster name="War Wolf" x="2" y="-2" z="8" spawntime="60" />
 		<monster name="Orc Shaman" x="-3" y="-1" z="8" spawntime="60" />
 		<monster name="Orc Rider" x="-1" y="0" z="8" spawntime="60" />
-		<monster name="War wolf" x="2" y="2" z="8" spawntime="60" />
+		<monster name="War Wolf" x="2" y="2" z="8" spawntime="60" />
 	</spawn>
 	<spawn centerx="33162" centery="31754" centerz="8" radius="1" />
 	<spawn centerx="32353" centery="31755" centerz="8" radius="2">
@@ -22059,7 +22062,7 @@
 		<monster name="Bug" x="-1" y="1" z="8" spawntime="60" />
 	</spawn>
 	<spawn centerx="32956" centery="31758" centerz="8" radius="2">
-		<monster name="War wolf" x="-1" y="0" z="8" spawntime="60" />
+		<monster name="War Wolf" x="-1" y="0" z="8" spawntime="60" />
 	</spawn>
 	<spawn centerx="33123" centery="31759" centerz="8" radius="1">
 		<monster name="Troll" x="1" y="0" z="8" spawntime="60" />
@@ -25088,7 +25091,7 @@
 		<monster name="Rotworm" x="-1" y="2" z="8" spawntime="60" />
 	</spawn>
 	<spawn centerx="32331" centery="32317" centerz="8" radius="1">
-		<monster name="War wolf" x="-1" y="0" z="8" spawntime="60" />
+		<monster name="War Wolf" x="-1" y="0" z="8" spawntime="60" />
 	</spawn>
 	<spawn centerx="32446" centery="32318" centerz="8" radius="1">
 		<monster name="Wasp" x="1" y="-1" z="8" spawntime="60" />

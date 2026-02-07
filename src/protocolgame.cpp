@@ -2509,13 +2509,15 @@ void ProtocolGame::AddPlayerSkills(NetworkMessage& msg)
 		for (uint8_t i = SKILL_FIRST; i <= SKILL_LAST; ++i) {
 			msg.addByte(
 			    std::min<uint8_t>(static_cast<uint8_t>(player->getSkillLevel(i)), std::numeric_limits<uint8_t>::max()));
-			msg.addByte(static_cast<uint8_t>(player->getSkillPercent(i)));
+			// Convert from basis points (0-10000) to percentage (0-100)
+			msg.addByte(static_cast<uint8_t>(player->getSkillPercent(i) / 100));
 		}
 	} else {
 		for (uint8_t i = SKILL_FIRST; i <= SKILL_LAST; ++i) {
 			msg.add<uint16_t>(std::min<uint16_t>(player->getSkillLevel(i), std::numeric_limits<uint16_t>::max()));
 			msg.add<uint16_t>(player->getBaseSkill(i));
-			msg.addByte(static_cast<uint8_t>(player->getSkillPercent(i)));
+			// Convert from basis points (0-10000) to percentage (0-100)
+			msg.addByte(static_cast<uint8_t>(player->getSkillPercent(i) / 100));
 		}
 
 		for (uint8_t i = SPECIALSKILL_FIRST; i <= SPECIALSKILL_LAST; ++i) {

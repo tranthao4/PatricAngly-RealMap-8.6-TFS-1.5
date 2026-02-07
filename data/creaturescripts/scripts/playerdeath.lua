@@ -75,6 +75,23 @@ function onDeath(player, corpse, killer, mostDamageKiller, lastHitUnjustified, m
 	nextUseStaminaTime[playerId] = nil
 
 	player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "You are dead.")
+
+	-- Rookgaard respawn system for low level players
+	local playerLevel = player:getLevel()
+	local playerVocation = player:getVocation():getId()
+
+	-- If player is below level 7, send them back to Rookgaard
+	if playerLevel < 7 then
+		-- Set vocation to 0 (no vocation)
+		player:setVocation(0)
+
+		-- Set town to Rookgaard (town ID 6)
+		player:setTown(Town(6))
+
+		-- Send message to player
+		player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "You have been sent back to Rookgaard to train more!")
+	end
+
 	if not deathListEnabled then return end
 
 	local timeNow = os.time()

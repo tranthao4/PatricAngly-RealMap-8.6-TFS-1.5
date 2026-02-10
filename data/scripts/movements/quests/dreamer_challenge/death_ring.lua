@@ -1,0 +1,29 @@
+local trees = {
+    Position(32857, 32231, 11),
+    Position(32857, 32232, 11),
+    Position(32857, 32233, 11)
+}
+
+local dcDeathRing = MoveEvent()
+dcDeathRing:type("additem")
+dcDeathRing:tileItem(true)
+
+function dcDeathRing.onAddItem(moveitem, tileitem, position)
+    if moveitem.itemid ~= 6300 then
+        return true
+    end
+
+    moveitem:remove()
+    for i = 1, #trees do
+        local treeItem = Tile(trees[i]):getItemById(2722)
+        if treeItem then
+            treeItem:remove()
+            trees[i]:sendMagicEffect(CONST_ME_MAGIC_BLUE)
+        end
+    end
+    return true
+end
+
+dcDeathRing:aid(2244)
+dcDeathRing:register()
+
